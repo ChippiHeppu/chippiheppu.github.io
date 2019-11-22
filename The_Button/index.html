@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html style="height: 100%;">
+	<head>
+		<title>The Button</title>
+		<link rel="icon" href="favicon.png">
+	</head>
+	<body style="margin: 0; background-image: radial-gradient(white, black);">
+		<img src="button.png" style="max-width: 100%; max-height: 100vh; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); cursor: pointer" onClick="randomLink()">
+		<script type="text/javascript">
+		
+		var links = new Array()
+		links[0] = "https://youtu.be/XnvsqDeqr0E"			// iPad goes bye bye
+		links[1] = "https://youtu.be/SckcB099zrg"			// Depressed doorbell commits suicide
+		links[2] = "https://youtu.be/sYqMeT5aPRU"			// Mario Pissing
+		links[3] = "https://youtu.be/GCIVK6LDUtg"			// Dog dancing to music while getting a haircut
+		links[4] = "https://youtu.be/DFPdtdY-a_c"			// eggdog
+		//DELETED links[5] = "https://youtu.be/D-UmfqFjpl0"			// Dog of Wisdom
+		links[6] = "https://youtu.be/32Hp1LW08Yc"			// MARIO SCREAMING
+		links[7] = "https://youtu.be/SO1NvBd72L4"			// Glorious Ducks
+		links[8] = "https://youtu.be/2JErwiAT-bY"			// Evil Kid tries to drown mom's phone
+		links[9] = "https://youtu.be/8Yy-83RbW1w"			// Little Girl Gets Reamed for Not Flushing Toliet!
+		links[10] = "https://youtu.be/Y7pz7CqWTMs"			// Hot Chocolate High Velocity
+		links[11] = "https://youtu.be/R0njr77Yq2U"			// Meow Meow
+		links[12] = "https://youtu.be/1cjkYMG1km4"			// Screaming seal vine
+		links[13] = "https://youtu.be/-OK8IpxR3s8"			// Bouncing Seal
+		links[14] = "https://youtu.be/o3UgRO8VvBI"			// Dr. Amigo Family Clinic
+		links[15] = "https://youtu.be/K783SDTBKmg"			// Super Smash Bros Commercial (N64)
+		links[16] = "https://i.kym-cdn.com/photos/images/original/001/267/078/423.jpg"	// Guy in water balloon
+		links[17] = "https://youtu.be/NoBFK5x9FKs"			// SPIDEY N BADMAN CLAP THEM THIGHS- NMB STUNTERS-ORGINAL VIDEO-
+		links[18] = "https://youtu.be/VX7gFl7xnOE"			// Dancing Crazy Russian Party
+		links[19] = "https://youtu.be/EU2AIxkxiwg?t=622"	// Toy Skeleton haunted and possessed - This Is Demonic Crazy
+		links[20] = "https://youtu.be/jyCmnvBbm8Q"			// Raccoon eats grapes with his little hands
+		links[21] = "https://i.imgur.com/gNfghVh.jpg"		// CHONK
+		links[22] = "https://youtu.be/LDU_Txk06tM"			// Noisestorm - Crab Rave [Monstercat Release]
+		links[23] = "https://youtu.be/dQw4w9WgXcQ"			// Rick Astley - Never Gonna Give You Up (Video)
+		links[24] = "https://youtu.be/lJlbDOaFdkI"			// Sea Lion slaps man sleeping
+		links[25] = "https://youtu.be/Tc6qlEpDP_s"			// Bass Cat
+		links[26] = "https://youtu.be/w7x_lWJNnNg"			// Cat has a crazy deep meow
+		links[27] = "https://youtu.be/cBkWhkAZ9ds"			// Worlds Cutest Frog - Desert Rain Frog
+		links[28] = "https://youtu.be/kQTm0GFtrpQ"			// Cat attacks singing card.
+		links[29] = "https://youtu.be/v2TRFIVZQEI"			// We Like Fortnite
+		links[30] = "https://youtu.be/q5-cZIpldFk"			// Yoshi.mp4
+		links[31] = "https://youtu.be/V7HdWeYbV3Q"			// 10 Hours of Walking Polar Bear
+		links[32] = "https://youtu.be/0kcF7E69C6Q"			// Resident Evil: Director's Cut: DualShock OST - Mansion Basement
+		links[33] = "https://youtu.be/1KIKrSG-Xzc"			// CatDad Feeds His Kitties In Cat Mask Fail! (Original Video)
+		links[34] = "https://youtu.be/dgha9S39Y6M"			// MINE DIAMONDS | miNECRAFT PARODY OF TAKE ON ME
+		links[35] = "https://youtu.be/oR6k5ZPezeE"			// Kirby WITH LYRICS - brentalfloss
+		links[36] = "https://youtu.be/11quU3nqkVE"			// Japanese McDonalds SpongeBob Comercial HD
+		links[37] = "https://youtu.be/-Z4jx5VMw8M"			// Cat Can't Handle Flower
+		links[38] = "https://youtu.be/foS1bG8p2K0"			// Toadhemian Rhapsody
+		links[39] = "https://youtu.be/8EQ17_B7kug"			// super mario in real life
+		links[40] = "https://youtu.be/IIL5klObiQ4"			// Half-Life: Wounded
+		links[41] = "https://youtu.be/wIuSyipbp6U"			// 0 subcriber specal
+		links[42] = "https://youtu.be/EShUeudtaFg"			// how is prangent formed
+		links[43] = "https://youtu.be/q_Yd2gn37AM"			// Mario Paint Baby Noise
+		links[44] = "https://youtu.be/H6qMQjTLtj4"			// Quake Jump Sound Effect
+		links[45] = "https://youtu.be/VqwL7GnxiI0"			// Baby Bottle Robot - [Short Version]
+		links[46] = "https://youtu.be/gkxGs4ETeg4"			// Gabber Dance
+		links[47] = "https://youtu.be/65uNCLBTje0"			// Super Mario Brothers Super Show Credits - Do the Mario!
+		links[48] = "https://youtu.be/D8M8I2SYEiA"			// Captain Lou Albano - WGBS Philly 57 "Just Say No" Drugs PSA
+		links[49] = "https://youtu.be/VqB1uoDTdKM"			// DOOR STUCK! DOOR STUCK!
+		links[50] = "https://youtu.be/bGfm0Xaofns"			// How to troll bots on CS:S (with bot comments!)
+		links[51] = "https://youtu.be/PSKQ3ZNQ_O8"			// World's Biggest Fart - The Hippo
+		links[52] = "https://youtu.be/lqYqyHBTZjg"			// Half-Life: Greetings
+		links[53] = "https://youtu.be/yr_Rpk9HR1g"			// Super Марио Brothers
+		links[54] = "https://youtu.be/kvxCU_lQwKM"			// Cat Meows Underwater [ORIGINAL VIDEO]
+		links[55] = "https://youtu.be/RNxcrq2CmeE"			// Mario cdi - qualidade boa
+		links[56] = "https://youtu.be/zuRbuki1VIs"			// SHREK RUNS IN A DOG RACE
+		links[57] = "https://youtu.be/nMoK11P4w6Y"			// US Navy "Sky Penis" Cockpit Audio (released 5/14/19)
+		links[58] = "https://youtu.be/oWuyrlXI7nA"			// Cofe Time for in talk English
+		links[59] = "https://youtu.be/rcCddffDP9k"			// Dear diary
+		links[60] = "https://youtu.be/TdN4VoGRSzI"			// How 2 open the blinds
+		links[61] = "https://youtu.be/KZdvL9yqtLY"			// Sorry! Girl gets hit by door
+		links[62] = "https://youtu.be/QQNL83fhWJU"			// The OFFICIAL Mr. Bubz video
+		links[63] = "https://www.instagram.com/p/BwukVnyA-17/?igshid=3ss22ylf3ty8"	// mr bubz again
+		links[64] = "https://youtu.be/5pjpQot6J7k" 			// Crazy Kid Runs Around With a Knife!!!!
+		links[65] = "https://youtu.be/ZpkmYINxodc" 			// angry cat attacks
+		links[66] = "https://youtu.be/yPuI4l0jK7s"			// Domino's App Feat Hatsune Miku [ ORIGINAL FULL VIDEO ]
+		links[67] = "https://scontent-hel2-1.cdninstagram.com/vp/f43d4d99505080a78d15655b300ca96c/5E437182/t51.2885-15/e35/p1080x1080/74449783_109261083681375_4803398061356234576_n.jpg?_nc_ht=scontent-hel2-1.cdninstagram.com&_nc_cat=1"	// Pennywise
+		
+		function randomLink(){
+			if (links.length != 0) {
+				var random = Math.floor(Math.random()*links.length)
+				console.log("Random result: " + random + " (" + links[random] + ")")
+				if (links[random] != undefined) {
+					window.open(links[random])
+					links.splice(random, 1)
+				}
+				else {
+					console.log("Link is undefined, retrying...")
+					links.splice(random, 1)
+					randomLink()
+				}
+			}
+			else {
+				alert("I think that's enough memes for you, bud.")
+			}
+		}
+		
+		</script>
+	</body>
+</html>
